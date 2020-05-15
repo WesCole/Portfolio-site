@@ -1,2 +1,2 @@
 # Portfolio-site
-my portfolio site i created using html and vanilla css (i will add node.js for the contact form later)
+this is my first project, decided to make a portfolio site using html and vanilla css just for fun.
