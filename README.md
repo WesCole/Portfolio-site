@@ -1,2 +1,2 @@
 # Portfolio-site
-My portfolio website i created. (im adding node.js for the contact form later)
+an old portfolio website I created for fun using just simple html and vanilla css. (working on a new portfolio site)
