@@ -88,8 +88,6 @@ animation-iteration-count: infinite;
 animation-delay: 1s;
 }
 
-hr{ width: 100%}
-
 @keyframes name-animation{
 	0%{color: rgb(0, 0, 0);}
 	25%{color: rgb(183, 229, 255);}
@@ -109,6 +107,18 @@ text-shadow: 2px 6px 10px #000000FD;
 opacity: 0.85;
 }
 
+@media (max-width: 600px){
+	.name{
+		
+		text-align: center;
+	}
+}
+
+@media (max-width: 425px){
+	.name{
+		font-size: 200px;
+	}
+}
 /*===== footer =====*/
 footer{
 	display: flex;
@@ -180,12 +190,11 @@ footer{
 
 @media (max-width: 425px){
    .name{
-	   font-size: 55px;
-	   margin-top: 220px;
+	   margin-top: 180px;
    }
 
    .job{
-	   font-size: 15px;
+	   font-size: 25px;
 	}
 
    footer{
@@ -202,13 +211,10 @@ footer{
 
 @media (max-width: 375px){
    .name{
-	   font-size: 50px;
-	   margin-top: 180px;
+	   font-size: 100px;
+	   margin-top: 80px;
    }
 
-   .job{
-	   font-size: 15px;
-   }
 
    footer{
 	   margin-top: 480px;
@@ -229,7 +235,7 @@ footer{
 
 @media (max-width: 320px){
 	.name{
-		font-size: 40px;
+		font-size: 80px;
 	}
 
 	footer{
@@ -678,7 +684,15 @@ footer{
 }
 
 @media (max-width: 560px){
+
+     .skill-set{
+		 background-image: none;
+		background-color: rgb(0, 0, 47);
+	}
+
 	.grid-wrap2{
+		background-image: none;
+		background-color: rgb(0, 0, 70);
 		display: grid;
 		grid-template-columns: repeat (12, 1fr);
 		grid-template-rows: 300px 200px 50px 100px;
