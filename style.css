@@ -1001,14 +1001,13 @@ footer{
 @media(max-width: 768px){
 	#project-body{
 		background-image: none;
-		background-color: lightblue;
+		background-color: rgb(72, 101, 139);
 		margin-top: none;
 	}
 
 	.project-title{
 		padding-top: 100px;
-		background-image: none;
-		background-color: rgb(59, 59, 129);
+		background-position: right;
 	}
 
 	.image-block > a{
@@ -1022,11 +1021,14 @@ footer{
 	grid-template-columns: repeat(1, 300px);
 	grid-template-rows: repeat(1, 1fr);
 	grid-gap: 15px;
+	margin-top:20px;
 	}
 
 	.project-title{
 		padding-top: 40px;
 		font-size: 5rem;
+		background-size: cover;
+		background-position: center;
 	}
 
 	.image-block > a > img{
@@ -1046,7 +1048,8 @@ footer{
 }
 
 .project-title{
-	padding-top: 300px;
+	padding-top: 400px;
+	background-position: right;
 }
 	.image-block > a > img{
 		width:90%;
