@@ -1277,7 +1277,8 @@ form{
 	}
 
 	.hope > h1{
-		margin-top:115px;
+		margin-top:65px;
+		font-size: 50px;
 		text-shadow: 3px 3px 6px black;
 	 }
 }
