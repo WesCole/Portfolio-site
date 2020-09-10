@@ -115,8 +115,8 @@ opacity: 0.85;
 }
 
 @media (max-width: 425px){
-	.name{
-		font-size: 200px;
+	h1.name{
+		font-size: 150px;
 	}
 }
 /*===== footer =====*/
@@ -170,6 +170,7 @@ footer{
 
 @media (max-width: 832px){
    .name{
+	   text-align: center;
 	   font-size: 100px;
 	   margin-top: 280px;
    }
@@ -189,7 +190,8 @@ footer{
 }
 
 @media (max-width: 425px){
-   .name{
+   h1.name{
+	   font-size:100px;
 	   margin-top: 180px;
    }
 
@@ -210,8 +212,8 @@ footer{
 }
 
 @media (max-width: 375px){
-   .name{
-	   font-size: 100px;
+   h1.name{
+	   font-size: 80px;
 	   margin-top: 80px;
    }
 
@@ -253,7 +255,7 @@ footer{
 
  hr{
 	 width:70%;
-     border: .3px solid black;
+     border: .3px solid white;
  }
 .grid-wrap{
 	display:grid;
@@ -325,7 +327,6 @@ footer{
 	margin-left:auto;
 	margin-right:auto;
 	margin-top: 167px;
-	
 	border: 1px solid black;
 }
 
@@ -685,6 +686,19 @@ footer{
 
 @media (max-width: 560px){
 
+	.me{
+      background-color: rgb(16, 25, 85);
+	}
+
+	.me > img{
+		padding-top: 80px;
+		padding-bottom: 80px;
+		border: none;
+		margin-top:0;
+		width: 65%;
+		height: 35%;
+	}
+
      .skill-set{
 		 background-image: none;
 		background-color: rgb(0, 0, 47);
@@ -730,9 +744,8 @@ footer{
 	}
 
 	   .me > img{
-			width: 150px;
-			height: 200px;
-			margin-top:  80px;
+			width: 200px;
+			height: 250px;
 		}
 
 		.about-title{
@@ -787,7 +800,6 @@ footer{
 		.me > img{
 			width: 150px;
 			height: 200px;
-			margin-top:  80px;
 		}
 
 		nav > ul > li > a{
