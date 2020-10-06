@@ -214,8 +214,12 @@ footer{
 
 @media (max-width: 375px){
    h1.name{
-	   font-size: 80px;
+	   font-size: 65px;
 	   margin-top: 80px;
+   }
+
+   .job{
+	   font-size: 15px;
    }
 
 
