@@ -6,29 +6,42 @@ html,body{
 }
 
 nav{
+	display: flex;
+	justify-content: space-around;
 	background-color: rgba(0, 0, 0, 0.445);
 	height: 60px;
 	position:static;
 }
+
 nav>ul{
 	display:flex;
 	list-style: none;
-	padding-top: 15px;
 	text-shadow: 2px 3px 4px black;
 }
 
-.home{
-	margin-right:auto;
+.burger{
+	display:none;
+	color:rgb(255, 200, 118);
+	position:right;
+	font-size: 30px;
+	background-color:black;
 }
+
+.burger > i{
+	margin-left:80%;
+	padding:10px;
+}
+
+
 
 
 nav>ul>li>a{
 	font-size:20px;
 	text-decoration: none;
-	padding: 15px 20px 0px 20px;
+	padding: 15px 20px 15px 20px;
 	color:rgb(255, 200, 118);
 	transition-property: color;
-	transition-duration:.5s 
+	transition-duration:.5s; 
 }
 nav>ul>li>a:hover{
 	color: white;
@@ -54,13 +67,28 @@ nav>ul>li>a:hover{
 	}
 }
 
-@media (max-width: 425px){
-	nav>ul>li>a{
-		font-size: 13px;
-		padding-top: 10px;
-		padding: 10px;
-	}
+@media (max-width: 687px){
+	
+	nav{
+	  height:200px;
+	  right:0px;
+  }
+  .nav{
+	  display:flex;
+	  flex-direction: column;	 
+  }
+
+  
+  .nav >li> a{
+	  font-size:30px;
+	  padding:10px;
+  }
+  
+  .burger{
+	display:block;
+	 }
 }
+
 
 
 /*====== index ======*/
@@ -203,9 +231,7 @@ footer{
    footer{
 	   margin-top: 400px;
    }
-   nav{
-	   height: 50px;
-   }
+   
 
    nav > ul{
 	   padding-left: 0px;
@@ -227,9 +253,7 @@ footer{
 	   margin-top: 480px;
 	   font-size: 13px;
    }
-   nav{
-	   height: 40px;
-   }
+   
 
    nav > ul > li > a{
 	   font-size: 10px;
@@ -331,8 +355,8 @@ footer{
 	display:block;
 	margin-left:auto;
 	margin-right:auto;
-	margin-top: 167px;
-	border: 1px solid black;
+	padding-top: 167px;
+	
 }
 
 .about-title{
@@ -1331,4 +1355,4 @@ form{
 		 width: 25px;
 		 height: 25px;
 	 }
- }
+	}
