@@ -1,6 +1,12 @@
-const burger = document.getElementsByClassName('burger i');
-const nav = document.querySelector('nav');
+var burger = document.querySelector('.burger i');
+var nav = document.querySelector('nav');
 
-burger.addEventlistener('click',function(){
-    nav.toggle;
-})
+
+function toggleNav(){
+    document.querySelector('nav').style.top= 45; 
+}
+
+
+burger.addEventListener('click', function(){
+    toggleNav();
+});
