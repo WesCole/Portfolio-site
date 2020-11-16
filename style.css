@@ -61,7 +61,7 @@ nav>ul>li>a:hover{
 
 @media (max-width: 768px){
 	nav>ul>li>a{
-		font-size: 18px;
+		font-size: 20px;
 		padding-top: 10px;
 		padding: 15px;
 	}
@@ -1275,7 +1275,14 @@ form{
 
 @media (max-width: 650px){
 
-	
+	form{
+	position: relative;
+	animation-name: form;
+	animation-duration: 0s;
+	animation-fill-mode: forwards;
+	animation-direction: reverse;
+	animation-timing-function: ease-in;
+}
 
     .contact-grid{
 	display: grid;
@@ -1306,14 +1313,7 @@ form{
 }
 
 @media (max-width: 425px){
-form{
-	position: relative;
-	animation-name: form;
-	animation-duration: 0s;
-	animation-fill-mode: forwards;
-	animation-direction: reverse;
-	animation-timing-function: ease-in;
-}
+
 	#contact-body{
 		background-image: none;
 		background-color: rgb(47, 47, 47);
