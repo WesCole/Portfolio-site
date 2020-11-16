@@ -3,10 +3,11 @@ var nav = document.querySelector('nav');
 
 
 function toggleNav(){
-    document.querySelector('nav').style.top= 45; 
+    nav.classList.toggle('nav-active');
 }
 
 
 burger.addEventListener('click', function(){
     toggleNav();
 });
+
