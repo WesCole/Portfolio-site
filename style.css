@@ -47,7 +47,7 @@ nav>ul>li>a{
 }
 nav>ul>li>a:hover{
 	color: white;
-	text-decoration: underline;
+	text-decoration: overline;
 	font-size:1.5em;
 }
 /*==== media query =====*/
@@ -119,7 +119,7 @@ h1>.name{
 
 .name{
 margin-top: 0px;
-padding-top:200px;
+padding-top:300px;
 margin-bottom: 0;
 display:flex;
 justify-content: center;
@@ -406,10 +406,11 @@ footer{
 	grid-template-rows: 500px 200px;
 }
 .grid-wrap2{
-	background-image:url("imgs/downloadanime.png");
+	background: rgba(0, 0, 0, 0.7)url("imgs/downloadanime.png");
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: center;
+	background-blend-mode: overlay;
 }
 
 
@@ -998,7 +999,7 @@ footer{
 }
 
 .image-block{
-	background-color: rgb(57, 81, 116);
+	background-color: rgb(24, 35, 51);
 	display: block;
 	text-align: center;
 	font-size: 40px;
