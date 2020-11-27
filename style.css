@@ -160,7 +160,20 @@ opacity: 0.85;
 
 @media (max-width: 425px){
 	h1.name{
-		font-size: 150px;
+		font-size: 190px;
+		padding-top:30px;
+	}
+
+	h3.job{
+		text-align: center;
+		padding-top:20px;
+		font-size: 10px;
+	}
+}
+
+@media (max-width: 320px){
+	h3.job{
+		font-size: 10px;
 	}
 }
 /*===== footer =====*/
